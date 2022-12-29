@@ -1,0 +1,41 @@
+body{
+    background-color: #DEEBFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 100px; ;
+    width: 1440px;
+    height: 900px;
+    background-color: #EAF1FE;
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.35), inset 5px 5px 10px rgba(255, 255, 255, 0.35);
+border-radius: 40px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    width: 254px;
+    height: 900px;
+    
+}
+
+.profileWraper{
+    width: 184px;
+}
+
+.profileImg{
+    margin-top: 99px;
+    width: 64px;
+    height: 64px;
+    border: 12px solid white;
+    border-radius:15px ;
+}
+
+
+.profileName{
+    text-align: center;
+    margin-top: 13px;
+}
