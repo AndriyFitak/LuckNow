@@ -22,12 +22,13 @@ border-radius: 40px;
     
 }
 
-.profileWraper{
+.profileWrapper{
     width: 184px;
 }
 
 .profileImg{
     margin-top: 99px;
+    margin-left: 50px;
     width: 64px;
     height: 64px;
     border: 12px solid white;
@@ -36,6 +37,224 @@ border-radius: 40px;
 
 
 .profileName{
-    text-align: center;
-    margin-top: 13px;
+position: absolute;
+width: 82px;
+height: 16px;
+left: 325px;
+top: 300px;
+
+font-family: 'Spartan';
+font-style: normal;
+font-weight: 1000;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.navHome{
+position: absolute;
+width: 184px;
+height: 44px;
+left: px;
+top: 400px;
+
+background: #FF5454;
+border-radius: 15px;
+}
+
+.navHome:hover{
+    box-shadow: 4px 4px 4px rgb(181, 179, 179);
+}
+
+.circleHome{
+    position: absolute;
+width: 46px;
+height: 44px;
+
+
+background: #DF4545;
+border-radius: 15px;    
+}
+
+.svghome{
+  margin-top: 11px;
+  margin-left: 13px;
+}
+
+.pHome{
+    position: absolute;
+width: 46px;
+height: 16px;
+left: 90px;
+top: 15px;
+
+font-family: 'Spartan';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+
+.navMenu{
+    position: absolute;
+width: 134px;
+height: 44px;
+
+top: 480px;
+}
+
+.circleMenu{
+    position: absolute;
+width: 46px;
+height: 44px;
+
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.svgMenu{
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+.pMenu{
+    position: absolute;
+    width: 43px;
+    height: 16px;
+    left: 89px;
+    top: 15px;
+    
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    color: #919191;
+}
+
+.navTrending{
+position: absolute;
+width: 146px;
+height: 44px;
+
+top: 560px;
+
+}
+
+.circleTrend{
+    position: absolute;
+width: 46px;
+height: 44px;
+
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.svgTrend{
+ margin-left: 11px;   
+ margin-top: 11px;
+}
+
+.pTrend{
+    position: absolute;
+width: 67px;
+height: 16px;
+left: 89px;
+top: 15px;
+
+font-family: 'Spartan';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #919191;
+}
+
+.navSetting{
+    position: absolute;
+width: 143px;
+height: 44px;
+top: 630px;
+
+}
+
+.circlesett{
+    position: absolute;
+width: 46px;
+height: 44px;
+
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.svgSett{
+position: absolute;
+width: 18px;
+height: 22px;
+left: 11px;
+top: 11px;
+}
+
+.pSett{
+    position: absolute;
+    width: 67px;
+    height: 16px;
+    left: 89px;
+    top: 15px;
+    
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 16px; 
+
+    color: #919191;
+}
+
+.deliveryDiv{
+    position: absolute;
+width: 184px;
+height: 162px;
+left: px;
+top: 800px;
+
+background: #FFFFFF;
+border-radius: 25px;    
+}
+
+.deliveryImg{
+    position: absolute;
+width: 183px;
+height: 226px;
+left: 0px;
+top: -100px;
+
+background: url(delivery-man-runs-package-his-hands-d-illustration-cartoon-character-express-delivery-concept-express-delivery-concept-183402417-removebg-preview.png);
+}
+
+.deliverysvg{
+    position: absolute;
+width: 127px;
+height: 159px;
+left: 30px;
+top: -70px;
+
 }
